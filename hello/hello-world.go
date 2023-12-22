@@ -1,3 +1,4 @@
+// This is the most basic Golang program
 package main
 
 import "fmt"
