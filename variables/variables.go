@@ -9,11 +9,11 @@ package main
 import "fmt"
 
 func main() {
-	var topic = "This is how variables are declared in Golang"
+	var topic string = "This is how variables are declared in Golang"
 	fmt.Println(topic)
-	var age = 45
+	var age int = 45
 	fmt.Println(age)
-	var isPresent = true
+	var isPresent bool = true
 	fmt.Println(isPresent)
 
 	// declared using the shorthand
