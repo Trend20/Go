@@ -16,7 +16,9 @@ func main() {
 	var isPresent bool = true
 	fmt.Println(isPresent)
 
-	// declared using the shorthand
+	fmt.Printf("This variable is of type %T\n", isPresent)
+
+	// declared using the shorthand and omit the var key word and it only works for variables inside the functions
 	f := 56
 	fmt.Println(f)
 }
