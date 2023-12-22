@@ -8,7 +8,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 const greeting string = "Hello Golang!"
 
@@ -17,4 +20,6 @@ func main() {
 	const title string = "This is how constant variables are declared"
 	fmt.Println(title)
 
+	const n = 50000
+	fmt.Println(math.Sin(n))
 }
