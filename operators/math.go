@@ -19,4 +19,9 @@ func main() {
 	// rounding off the float no to the nearest decimal place
 	floatSum = math.Round(floatSum*100) / 100
 	fmt.Println("The value is now:", floatSum)
+
+	// calculate the circumference of a circle and round off to two decimal places
+	circleRadius := 12.3
+	circumference := circleRadius * 2 * math.Pi
+	fmt.Printf("Circumference is: %.2f\n", circumference)
 }
