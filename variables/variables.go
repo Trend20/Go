@@ -3,7 +3,6 @@
 // you can also declare more than one variable at a time.
 // Go will infer the type of variable that is declared.
 // variable can also be declared using the shorthand format(:=)
-
 package main
 
 import "fmt"
@@ -13,6 +12,9 @@ func main() {
 	fmt.Println(topic)
 	var age int = 45
 	fmt.Println(age)
+	// var declaring multiple variables
+	var name, class string = "mike", "byron"
+	fmt.Println(name, class)
 	var isPresent bool = true
 	fmt.Println(isPresent)
 

@@ -33,4 +33,18 @@ func main() {
 		}
 		fmt.Println()
 	}
+
+	// print the first ten numbers in go
+	i := 1
+	for i <= 10 {
+		fmt.Println("This is a display of the first ten numbers")
+		i = i + 1
+		fmt.Println(i)
+	}
+
+	for i := 0; i < 20; i++ {
+		fmt.Println(i)
+		g := i + 1
+		fmt.Println(g)
+	}
 }
