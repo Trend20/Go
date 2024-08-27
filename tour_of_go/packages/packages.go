@@ -8,6 +8,6 @@ import (
 )
 
 func Packages() {
-	fmt.Println("These are Go Packages!")
+	fmt.Println("This is a Go Package!")
 	fmt.Println("My favourite number is", rand.Intn(10))
 }
