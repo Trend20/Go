@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Welcome to Go By example!")
+	fmt.Println("Welcome to Tour of Go!")
 }
