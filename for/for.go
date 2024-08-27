@@ -14,7 +14,6 @@ func main() {
 	}
 
 	// A classic initial/condition/after for loop.
-
 	for k := 10; k <= 15; k++ {
 		fmt.Println(k)
 	}
@@ -46,5 +45,13 @@ func main() {
 		fmt.Println(i)
 		g := i + 1
 		fmt.Println(g)
+	}
+
+	//	special for loops
+	x := [5]float64{98, 93, 77, 82, 83}
+	var total float64 = 0
+	for _, value := range x {
+		fmt.Println(i, value)
+		total += value
 	}
 }
