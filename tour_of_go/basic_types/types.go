@@ -18,4 +18,14 @@ func BasicTypes() {
 	var b bool
 	var s string
 	fmt.Printf("%v %v %v %q\n", i, f, b, s)
+
+	//	type conversions
+	//the expression T(v) converts the value to the type T
+	var myInt int = 6
+	float1 := float64(myInt)
+	fmt.Println(myInt, float1)
+
+	//	type inference
+	price := 780
+	fmt.Println(price)
 }
