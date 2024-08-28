@@ -18,4 +18,6 @@ func main() {
 	variables.Variables()
 	basic_types.BasicTypes()
 	control_structures.ControlStructures()
+	control_structures.IfCondition()
+	control_structures.GoSwitch()
 }
