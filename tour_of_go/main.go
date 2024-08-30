@@ -9,6 +9,7 @@ import (
 	"github.com/Trend20/Go/tree/main/tour_of_go/imports"
 	"github.com/Trend20/Go/tree/main/tour_of_go/packages"
 	"github.com/Trend20/Go/tree/main/tour_of_go/pointers"
+	"github.com/Trend20/Go/tree/main/tour_of_go/slices"
 	"github.com/Trend20/Go/tree/main/tour_of_go/structs"
 	"github.com/Trend20/Go/tree/main/tour_of_go/variables"
 )
@@ -26,4 +27,5 @@ func main() {
 	pointers.Pointers()
 	structs.GoStructs()
 	arrays.GoArrays()
+	slices.GoSlices()
 }
