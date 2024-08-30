@@ -7,6 +7,7 @@ import (
 	"github.com/Trend20/Go/tree/main/tour_of_go/control_structures"
 	"github.com/Trend20/Go/tree/main/tour_of_go/functions"
 	"github.com/Trend20/Go/tree/main/tour_of_go/imports"
+	"github.com/Trend20/Go/tree/main/tour_of_go/maps"
 	"github.com/Trend20/Go/tree/main/tour_of_go/packages"
 	"github.com/Trend20/Go/tree/main/tour_of_go/pointers"
 	"github.com/Trend20/Go/tree/main/tour_of_go/slices"
@@ -28,4 +29,5 @@ func main() {
 	structs.GoStructs()
 	arrays.GoArrays()
 	slices.GoSlices()
+	maps.GoMaps()
 }
