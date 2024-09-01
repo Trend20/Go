@@ -10,7 +10,6 @@ var m map[string]Vertex
 
 func GoMaps() {
 	fmt.Println("Go Maps!")
-	//
 	//A map maps keys to values.
 	//	The zero value of a map is nil. A nil map has no keys, nor can keys be added.
 	//	The make function returns a map of the given type, initialized and ready for use.
@@ -36,4 +35,17 @@ func GoMaps() {
 		"Google":    {37.42202, -122.08408},
 	}
 	fmt.Println(m3)
+
+	//	MUTATING MAPS
+	//Insert or update an element in map m:
+	var m4 = make(map[string]int)
+	//INSERT
+	m4["Total"] = 45
+	fmt.Println(m4)
+	//	UPDATE
+	m4["Total"] = 80
+	fmt.Println(m4)
+	//	DELETE
+	delete(m4, "Total")
+	fmt.Println(m4)
 }
