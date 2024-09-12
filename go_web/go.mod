@@ -1,0 +1,5 @@
+module github.com/Trend20/Go/go_web
+
+go 1.22.6
+
+require github.com/gorilla/mux v1.8.1 // indirect
